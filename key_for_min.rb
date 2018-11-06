@@ -4,6 +4,6 @@
 def key_for_min_value(name_hash)
   min_key=nil;
   min_val=nil;
-  name_hash.collect do ||
+  name_hash.collect do |key,value|
   end
 end
